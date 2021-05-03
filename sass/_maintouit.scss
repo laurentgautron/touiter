@@ -1,0 +1,40 @@
+body {
+    background-color: #0d0b0c;
+}
+
+main {
+    background-color: $clearYellow;
+    border-top: 8px solid $red;
+    .touits {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .touit {
+        background-color: $red;
+        border: 8px solid $orange;
+        border-radius: 5px;
+        margin-left: 5rem;
+        padding-left: 1.5rem;
+        padding-right: 3rem;
+        padding-bottom: 2rem;
+        padding-top: 2rem;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+        h3 {
+            font-size: 3rem;
+            color: $purple;
+        }
+        p {
+            padding-left: 1rem;
+            padding-right: 2.2rem;
+            width: 100%;
+            max-width: 30rem;
+            border-radius: 2px;
+            background-color: $clearOrange;
+    
+        }
+    }
+}
+
