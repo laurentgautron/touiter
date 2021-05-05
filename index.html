@@ -15,28 +15,36 @@
         </div>
     </header>
 
-    <section class="form">
+    <section class="form-touit">
         <div class="container">
-            <form action="">
+            <form action="" class="your-touit">
                 <div class="pseudo">
                     <label for="pseudo">Votre pseudo</label>
                     <input type="text" name="pseudo" id="pseudo" maxlength="16" minlength="3">
                 </div>
                 <div class="message">
                     <label for="message">Votre message</label>
-                    <textarea name="message" id="message" class="message" maxlength="256" minlength="3"></textarea>
+                    <textarea name="message" id="message" class="message" maxlength="256"></textarea>
                 </div>
-                <button type="submit" id="send">Envoyer</button>
+                <button type="submit" id="send" class="send-touit">Envoyer</button>
             </form>
         </div>
+        <nav>
+            <h3>Termes les plus utilisés: </h3>
+        </nav>
     </section>
     <main>
-        <section class="touits">
-            
+        <section class="touits"></section>
+        <section class="comment">
+            <form action="" class="your-comment">
+                <label for="text-comment">Sélectionnez un touit et écrivez un commentaire</label>
+                <textarea name="" id="text-comment"></textarea>
+                <button type="submit" class="send-comment">Envoyer</button>
+            </form>
         </section>
     </main>
 
 
-    <script src="JS/touiter.js"></script>
+    <script src="JS/touit.js"></script>
 </body>
 </html>
